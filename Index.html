@@ -28,7 +28,7 @@
       let data = await response.json();
       console.log(data);
       quote.innerHTML = data.content;
-      author.innerHTML = `-${data.author}`
+      author.innerHTML = `-${data.author}`;
     }
 
     thequote(apiurl);
